@@ -1,0 +1,17 @@
+# docker-compose.yml のファイルフォーマットです。
+# https://docs.docker.jp/compose/compose-file/compose-versioning.html#compose-file-version-3
+version: '3.8'
+
+# service = container
+services:
+
+  py11-service:
+    container_name: py11-container
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    # tty, stdin_open しておくと exec するときに -it がいらないみたい。
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/app
