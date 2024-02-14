@@ -1,7 +1,7 @@
 whl-venv-pyenv-pipenv-lab
 ===
 
-Today I learned from this lab.
+🐍 🐳 Laboratory for `whl`, `venv`, `pyenv`, and `pipenv`.
 
 About whl.
 
