@@ -21,6 +21,10 @@ About venv.
 - lock ファイル使いたいなら (依存関係の正確なバージョンを固定したいなら) pipenv 要るけどね。
     - たとえば今回のような、 whl があるのでバージョン固定は不要、っていうときは pipenv 不要だし。
 
+Misc.
+
+- このノートに書いてる whl は友達に借りたものだからコミットには含めないよ。
+
 ## Struggles in Docker Container
 
 ```bash
